@@ -61,3 +61,59 @@ Inference
 Feed a sequence of words
 
 Model predicts the most probable next word
+
+
+📁 Repository Structure
+📦Next-word-predictor-using-LSTM-RNN-Architecture-in-Pytorch
+ ┣ 📜README.md
+ ┣ 📘lstm_next_word_predictor.ipynb   # Notebook with code
+ ┗ 📌(additional files)
+
+🧾 Usage
+
+Clone the repository:
+
+git clone https://github.com/Abraar77/Next-word-predictor-using-LSTM-RNN-Architecture-in-Pytorch.git
+cd Next-word-predictor-using-LSTM-RNN-Architecture-in-Pytorch
+
+
+Install dependencies:
+
+pip install torch numpy pandas
+
+
+Open the notebook and run all cells:
+
+jupyter notebook lstm_next_word_predictor.ipynb
+
+
+Train the model and try your own text inputs!
+
+🧪 Example Inference
+
+Insert a text prompt like:
+
+“Deep learning models”
+
+
+The model will output the most likely next word based on learned patterns.
+
+⚙️ Requirements
+
+Python 3.7+
+
+PyTorch
+
+Jupyter Notebook
+
+A CUDA-enabled GPU (optional but recommended)
+
+🧠 What You’ll Learn
+
+By working through this project, you’ll understand:
+
+✔ How to process text into training data
+✔ How LSTMs work and why they’re useful in NLP
+✔ How to structure a neural network in PyTorch
+✔ How to train and evaluate models on a GPU
+✔ How next-word prediction lays the foundation for larger NLP systems like LLMs
